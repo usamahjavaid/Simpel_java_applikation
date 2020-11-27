@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="Hej" layoutX="61.0" layoutY="84.0" mnemonicParsing="false" onAction="#printHej" style="-fx-background-color: ivory;" text="Hej" />
+      <Button fx:id="Nu" layoutX="61.0" layoutY="162.0" mnemonicParsing="false" onAction="#nuTime" style="-fx-background-color: ivory;" text="Nu?" />
+      <Button fx:id="Terning" layoutX="61.0" layoutY="237.0" mnemonicParsing="false" onAction="#kastTerning" style="-fx-background-color: ivory;" text="Terning" />
+      <Button fx:id="Terning_avanceret" layoutX="61.0" layoutY="308.0" mnemonicParsing="false" onAction="#terningBillede" style="-fx-background-color: ivory;" text="Terning avanceret" />
+      <TextArea fx:id="Board" layoutX="263.0" layoutY="61.0" prefHeight="278.0" prefWidth="266.0" />
+      <ImageView fx:id="Billede" fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
